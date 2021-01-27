@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JAVASCRIPT ASSIGNMENT-2</title>
+</head>
+<body>
+    <h1>QUESTION-1</h1>
+       
+    <script>
+        const clothes = ['jacket', 't-shirt'];
+        clothes.length = 0;
+        console.log(clothes[0]);
+    </script>
+
+    <h2>PROOF: ARRAY LENGTH PROPERTY</h2>
+    <h3>Reducing the value of the length property has the side-effect of deleting own array elements whose array index is between the old and new length values.
+    </h3>
+    <h4>Because of this length behavior, when JavaScript executes clothes.length = 0, all the items of the array clothes are deleted. clothes[0] is undefined, because clothes array was emptied.
+    </h4>
+</body>
+</html>
